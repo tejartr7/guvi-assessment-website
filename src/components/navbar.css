@@ -1,0 +1,141 @@
+.active {
+    color: #F94A29;
+    width: 10vw;
+    padding: 15px 0 15px 0;
+    border-radius: 5px;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: #202020;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 20px 0 0 10px;
+    outline: none;
+    display: inline;
+    margin-right: 65vw;
+}
+
+Link {
+    padding-right: 50vw;
+}
+
+.topnav {
+    background-color: #AFD3E2;
+    width:100vw;
+}
+
+nav {
+    background-color: #ffd000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 1rem;
+    height: 8vh;
+    width: 100vw;
+}
+
+
+
+.header-button,.header-button-dashboard{
+    width: 10vw;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: #19A7CE;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 10px 0 20px 10px;
+    outline: none;
+    display: inline;
+}
+
+.contacts {
+
+    color: #ffffff;
+}
+
+.rtr {
+    color: black;
+}
+
+img.profile {
+    width: 20%;
+    height: 70%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:500px) {
+    .active {
+        margin-right: 40vw;
+        width: 15vw;
+        padding: 5px 0 5px 0;
+        font-size: 1rem;
+    }
+
+    .header-button {
+        width: 15vw;
+        padding: 5px 0 5px 0;
+        font-size: 1rem;
+    }
+    .header-button-dashboard{
+        width: 23vw;
+        padding: 5px 0 5px 0;
+        font-size: 1rem;
+    }
+    nav {
+        height: 5vh;
+    }
+    .topnav {
+       
+        width:100vw;
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width:1000px) {
+    .active {
+        margin-right: 55vw;
+        padding: 5px 0 5px 0;
+        margin: 0 0 0 0;
+        font-size: 1rem;
+    }
+
+    .header-button,.header-button-dashboard{
+        width: 20vw;
+        padding: 5px 0 5px 0;
+        margin: 0 0 0 0;
+        font-size: 1rem;
+    }
+   
+    .topnav{
+        height: 70px;
+    }
+    nav {
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:300px) {
+    .active {
+        margin-right: 30vw;
+        width: 12vw;
+        padding: 5px 0 5px 0;
+        font-size: 0.5rem;
+    }
+
+    .header-button {
+        width: 12vw;
+        padding: 5px 0 5px 0;
+        font-size: 0.5rem;
+    }
+    nav {
+        height: 5vh;
+    }
+}
